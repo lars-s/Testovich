@@ -28,6 +28,7 @@ function makeFlagsGoldfishLinks(nameCol, foilCol, linkCol) {
 		edition = edition.replace("Buy+a+Box+Promos","Media+Promos");
 		edition = edition.replace("the+Dark","The+Dark");
 		edition = edition.replace("theros","Theros");
+    edition = edition.replace("Player+Rewards+Promos","Magic+Player+Rewards");
 
 		if (edition.lastIndexOf("Magic+2015") > -1 ) {
 			edition += "+Core+Set";
