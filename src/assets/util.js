@@ -176,12 +176,7 @@ function getPrices() {
 		price = $(this).find(".btn-shop-price").text();
 		price = price.replace(/[^\d.-]/g, '');
 
-		var prices = {
-			vendor: vendor,
-			price: price
-		};
-
-		returnVal.push(prices);
+    returnVal.vendor = price;
 	});
 
 	return returnVal;
